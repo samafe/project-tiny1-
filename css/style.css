@@ -38,10 +38,10 @@ color: #898989;
 
 }
 h1,h2,h3,h4,h5,h6{
-	font-size: 32px;
-	font-weight: 700;
-	line-height: 35px;
-	margin: 0;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 35px;
+  margin: 0;
   color: #010101;
 }
 h2{
@@ -60,16 +60,16 @@ h3{
 }
 
 p{
-	margin: 0;
+  margin: 0;
 }
 /*==========================
-     		Header
+        Header
      =========================
 */
 header{
   background-color: #fcdb00;
 }
-.contain{
+.container{
   width: 70%;
   margin: 0 auto;
 
@@ -134,6 +134,9 @@ padding-bottom: 100px;
 .subtitles{
   padding: 25px 0;
 }
+.subtitles h2{
+  font-size: 20px;
+}
 .icon{
 
 }
@@ -157,7 +160,7 @@ section{
   text-align: center;
   padding-top: 100px;
   padding-bottom: 60px;
-  width: 76%;
+  width: 70%;
   margin: 0 auto;
 }
 .feature{
@@ -194,10 +197,15 @@ section{
 }
 footer{
   background-color:#010101; 
-  padding: 80px 0;
+  padding: 100px 0;
+  }
+  .address{
+  
+    margin: 0 auto;
   }
 .title h2{
    color:#fcdb00; 
+   font-size: 32px;
 }
 .subtitle h3{
   color: #898989;
@@ -208,7 +216,7 @@ form{
   justify-content: space-between;
 }
 input[ type=email]{
-  width: 80%;
+  width: 82%;
   height: 50px;
   border: none;
   border: 2px solid transparent; 
@@ -241,7 +249,7 @@ button{
 }
 
 .social{
-  width: 40%;
+  width: 30%;
   margin: 0 auto;
   display: flex;
   text-align: center;
@@ -270,14 +278,25 @@ button{
    color:#010101;
    align-items: center;  
 }
+.last{
+  width: 70%;
+  margin: 0 auto;
+  
+  
+  
+}
 .details{
- width: 90%;
- margin: 0 auto;
- display: flex;
- justify-content: space-between;
- padding: 100px 0;
- }
-.conten{ 
-  width: 45%;
-    padding: 0px 0;
+    display: flex;
+    justify-content: space-around;
+   
+    padding-top: 90px;
+  
+   
+    
+}
+.details ul li{
+  color:#ffff;
+  display:block;
+  font-weight: 400;
+  font-size: 16px;
 }
